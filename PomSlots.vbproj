@@ -70,6 +70,11 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="View\Game_\Game.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +87,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -96,9 +96,9 @@
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Game_\Game.resx">
       <DependentUpon>Game.vb</DependentUpon>
@@ -120,7 +120,16 @@
     <Folder Include="Model\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\gran-victoria-777-vector-loteria-concepto-casino-maquina-tragamonedas-ganar-jackpot-maquina-tragamonedas-juegos_53562-4198.jpg" />
+    <None Include="Resources\dinero1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logueado_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POM_Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\girar1_11.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\crearcuenta.png" />
@@ -129,13 +138,13 @@
     <None Include="Resources\credito.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dinero1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\fondoverde.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\girar1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gran-victoria-777-vector-loteria-concepto-casino-maquina-tragamonedas-ganar-jackpot-maquina-tragamonedas-juegos_53562-4198.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logintigo.png" />
@@ -144,34 +153,10 @@
     <None Include="Resources\logintigo2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Logo Tego 2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Logo1 solo color.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\logotigo3.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logueado.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\logueado_1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\POM_Logo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\POM_Logo2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\POM_Logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\girar1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\girar1_11.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

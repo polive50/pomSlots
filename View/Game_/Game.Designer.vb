@@ -64,7 +64,7 @@ Partial Class Game
         Me.Panel6.Controls.Add(Me.Panel1)
         Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel6.Location = New System.Drawing.Point(0, 0)
-        Me.Panel6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel6.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(1017, 629)
         Me.Panel6.TabIndex = 4
@@ -74,9 +74,9 @@ Partial Class Game
         Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox5.Image = Global.PomSlots.My.Resources.Resources.girar1_11
         Me.PictureBox5.Location = New System.Drawing.Point(506, 524)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(322, 80)
+        Me.PictureBox5.Size = New System.Drawing.Size(322, 105)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 4
         Me.PictureBox5.TabStop = False
@@ -90,7 +90,7 @@ Partial Class Game
         Me.Panel2.Controls.Add(Me.PictureBox3)
         Me.Panel2.Controls.Add(Me.PictureBox2)
         Me.Panel2.Location = New System.Drawing.Point(362, 79)
-        Me.Panel2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(633, 441)
         Me.Panel2.TabIndex = 2
@@ -98,8 +98,8 @@ Partial Class Game
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.DimGray
-        Me.PictureBox4.Location = New System.Drawing.Point(371, 177)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox4.Location = New System.Drawing.Point(384, 177)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(82, 118)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -110,7 +110,7 @@ Partial Class Game
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.DimGray
         Me.PictureBox3.Location = New System.Drawing.Point(278, 177)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(82, 118)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -120,8 +120,8 @@ Partial Class Game
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.DimGray
-        Me.PictureBox2.Location = New System.Drawing.Point(182, 177)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox2.Location = New System.Drawing.Point(176, 177)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(82, 118)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -135,7 +135,7 @@ Partial Class Game
         Me.Panel5.Controls.Add(Me.Label1)
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Left
         Me.Panel5.Location = New System.Drawing.Point(0, 74)
-        Me.Panel5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel5.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(358, 555)
         Me.Panel5.TabIndex = 3
@@ -153,7 +153,7 @@ Partial Class Game
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(0, 62)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowHeadersWidth = 51
@@ -188,7 +188,7 @@ Partial Class Game
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1017, 74)
         Me.Panel1.TabIndex = 0
@@ -200,7 +200,7 @@ Partial Class Game
         Me.Panel4.Controls.Add(Me.Label2)
         Me.Panel4.Controls.Add(Me.lb_cre)
         Me.Panel4.Location = New System.Drawing.Point(544, 6)
-        Me.Panel4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel4.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(203, 63)
         Me.Panel4.TabIndex = 3
@@ -237,7 +237,7 @@ Partial Class Game
         Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Panel3.Controls.Add(Me.lblganancia)
         Me.Panel3.Location = New System.Drawing.Point(246, 6)
-        Me.Panel3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Panel3.Margin = New System.Windows.Forms.Padding(2)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(203, 63)
         Me.Panel3.TabIndex = 2
@@ -271,7 +271,7 @@ Partial Class Game
         '
         Me.PictureBox1.Image = Global.PomSlots.My.Resources.Resources.logueado_1
         Me.PictureBox1.Location = New System.Drawing.Point(9, 10)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(71, 53)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -285,7 +285,7 @@ Partial Class Game
         Me.ClientSize = New System.Drawing.Size(1017, 629)
         Me.Controls.Add(Me.Panel6)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Game"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
